@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Dia 25!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> <!-- Link para o arquivo CSS -->
+</head>
+<body>
+    <h1>Feliz Dia 25, <span class="heart">❤</span> <span id="nome-namorada">Beatriz Carvalho</span>!</h1>
+    
+    <div class="message-card">
+        <p>Querida <span id="nome-namorada-2">Beatriz</span>, hoje é um dia especial porque retrata o momento em que deixamos de ser somente amigos e passamos a ser namorados...</p>
+        <p>Desde então, cada momento da minha vida tem se tornado mais feliz, e é um prazer dividir minha vida com você ❤</p>
+    </div>
+    
+    <button class="romantic-btn" id="surpresaBtn">Clique para uma surpresa!</button>
+
+    <!-- Seção do Carrossel -->
+    <section class="photo-carousel">
+        <h2>Nossos Momentos ❤</h2>
+        <div class="carousel-container">
+            <!-- Substitua pelas URLs das suas fotos -->
+            <div class="carousel-slide active">
+                <img src="img\1.jpg" alt="Nossa primeira foto juntos">
+            </div>
+            <div class="carousel-slide">
+                <img src="img\2.jpg" alt="Um momento especial">
+            </div>
+            <div class="carousel-slide">
+                <img src="img\3.jpg" alt="Outro dia inesquecível">
+            </div>
+            
+            <!-- Botões de navegação -->
+            <button class="carousel-btn prev-btn">❮</button>
+            <button class="carousel-btn next-btn">❯</button>
+        </div>
+        <div class="carousel-dots"></div>
+    </section>
+
+    <script src="script.js"></script> <!-- Link para o arquivo JavaScript -->
+    <!-- Elemento de áudio (oculto) -->
+<audio id="musicaRomantica" controls style="display: none;">
+    <source src="songs\jonas-brothers-live.mp3" type="audio/mpeg">
+    Seu navegador não suporta áudio.
+</audio>
+</body>
+</html>
